@@ -9,7 +9,6 @@ const LINE_THROUGH = "lineThrough";
 
 let LIST, id;
 
-// restores the list array
 let data = localStorage.getItem("TODO");
 if (data) {
     LIST = JSON.parse(data);
